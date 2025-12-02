@@ -5,7 +5,7 @@ This repository contains Homebrew formulae for my projects.
 ## Installation
 
 ```bash
-brew tap YOUR_GITHUB_USERNAME/tap
+brew tap andreabasile/tap
 ```
 
 ## Available Casks

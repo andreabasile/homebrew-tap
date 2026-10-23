@@ -1,8 +1,8 @@
 cask "tabula" do
-  version "1.0.0"
-  sha256 "901ec39860979b28ceb0418d9e44f0b89d536ca5d9ef502243ca8212503022bd"
+  version "1.0.1"
+  sha256 "80d8971c9c1a42733676b944346a6c7ac6a7c1464cdb76d084837dd8be7ddb83"
 
-  url "https://github.com/andreabasile/tabula/releases/download/v#{version}/Tabula-#{version}.zip"
+  url "https://github.com/andreabasile/tabula/releases/download/v#{version}/Tabula-#{version}.dmg"
   name "Tabula"
   desc "Database client modelled on TablePlus, with automatic Aurora DSQL IAM tokens"
   homepage "https://github.com/andreabasile/tabula"

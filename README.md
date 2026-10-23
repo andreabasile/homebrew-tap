@@ -18,6 +18,14 @@ A modern network port monitoring application for macOS.
 brew install --cask portmonitor
 ```
 
+### Tabula
+
+Database client for macOS modelled on TablePlus, for PostgreSQL and Aurora DSQL with automatic IAM tokens.
+
+```bash
+brew install --cask tabula
+```
+
 ## Updating
 
 Casks are automatically updated when new releases are published.

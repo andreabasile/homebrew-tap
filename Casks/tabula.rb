@@ -8,7 +8,7 @@ cask "tabula" do
   homepage "https://github.com/andreabasile/tabula"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Tabula.app"
 

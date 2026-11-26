@@ -1,6 +1,6 @@
 cask "tabula" do
-  version "1.1.0"
-  sha256 "5d2778301221a0bf132d8e59d2b722e58b1bc7d9c040a2f8aa2237b8b6c2538e"
+  version "1.2.0"
+  sha256 "9f460d3f8d65d72d6a561a411d877256250e6b6313474be171e8d265c91fa830"
 
   url "https://github.com/andreabasile/tabula/releases/download/v#{version}/Tabula-#{version}.dmg"
   name "Tabula"

@@ -26,6 +26,14 @@ Database client for macOS modelled on TablePlus, for PostgreSQL and Aurora DSQL 
 brew install --cask tabula
 ```
 
+### Hangar
+
+Native macOS launcher for Claude Code, Codex and 17 more coding-agent CLIs, with separate accounts or your own model server.
+
+```bash
+brew install --cask hangar
+```
+
 ## Updating
 
 Casks are automatically updated when new releases are published.

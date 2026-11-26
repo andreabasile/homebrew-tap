@@ -13,8 +13,8 @@ cask "tabula" do
   app "Tabula.app"
 
   # Signed but not notarized: without this Gatekeeper refuses to open it.
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Tabula.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Tabula.app"]
   end
 
   uninstall quit: "it.basileandrea.tabula"
